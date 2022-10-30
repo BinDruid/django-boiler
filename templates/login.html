@@ -1,0 +1,14 @@
+{% extends "base.html" %} 
+
+{% load static %}
+
+{% block main %}
+
+<h2>ورود به ناحیه کاربری</h2>
+<form class="site-form" method="post">
+  {% csrf_token %} 
+  {{ form.as_div }}
+  <button class="site-btn" type="submit">ورود</button>
+</form>
+
+{% endblock main %}
