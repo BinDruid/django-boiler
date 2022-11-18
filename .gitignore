@@ -168,6 +168,5 @@ cython_debug/
 config.sock
 /.virtual_documents/
 /.vscode/
-config.sock
 
 # End of https://www.toptal.com/developers/gitignore/api/django

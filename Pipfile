@@ -13,6 +13,7 @@ jdatetime = "*"
 django-jalali = "*"
 django-redis = "*"
 python-dotenv = "*"
+django-compressor = "*"
 
 [dev-packages]
 black = "*"
