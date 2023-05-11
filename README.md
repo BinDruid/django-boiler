@@ -55,7 +55,7 @@ If you want to cache a page view use chace_page method in your urls.py.
 
 ### Considerations
 
-- If you want to use jalali date time field in your database and templates, all of the setting are applied.
-- `apps.common` is a bioler app with a default view to show home page.
+- If you want to use jalali date time field in your database and templates, setting are already applied.
+- `apps.core` is a bioler app with a default view to show home page.
 - You can use this command to wipe your databse and migrate from initial: `python manage.py reset_db`.
 - In production environment if you want to serve project as a gunicorn service, you can use `gunicorn_service` file. Edit this file based on your configs and put it in this path `/etc/systemd/system/yourproject.service`
